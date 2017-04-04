@@ -313,7 +313,7 @@ body {
     display: block;
     position: absolute;
     z-index: -1;
-    -webkit-box-shadow: 0px 0px 8px 2px #000000;
-       -moz-box-shadow: 0px 0px 8px 2px #000000;
-            box-shadow: 0px 0px 8px 2px #000000;
+    -webkit-box-shadow: 0px 0px 20px 2px #000000;
+       -moz-box-shadow: 0px 0px 20px 2px #000000;
+            box-shadow: 0px 0px 20px 2px #000000;
 }
