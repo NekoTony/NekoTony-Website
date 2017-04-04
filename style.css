@@ -348,4 +348,11 @@ body {
 .span {
   display: table-cell;
   vertical-align: middle;
+  -webkit-transition: all 1s;
+   opacity: 1;
+   transition: all 1s;
+}
+
+.span:hover {
+	opacity: 0
 }
