@@ -313,10 +313,10 @@ body {
     background: url("http://i.imgur.com/B2oowIp.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #fff;
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
     display: table;
-    font-family: 'Merriweather Sans', sans-serif !important;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .aboutz:after {
     content: '\A';
@@ -339,7 +339,7 @@ body {
     -webkit-transition: all 1s;
     opacity: 1;
     transition: all 1s;
-    font-family: 'Merriweather Sans', sans-serif !important;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .span:hover {
     opacity: 0;
