@@ -324,8 +324,6 @@ body {
     position: relative;
     background: url("http://i.imgur.com/B2oowIp.jpg") no-repeat center center fixed;
     background-size: cover;
-    z-index: -1;
-    content: "About NerdieTony";
     color: #fff;
     font-size: 36px;
     text-align: center;
@@ -344,4 +342,9 @@ body {
 }
 .aboutz:hover:after {
     opacity: 1;
+}
+
+.span {
+  display: table-cell;
+  vertical-align: middle;
 }
