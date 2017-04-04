@@ -311,7 +311,10 @@ body {
     background: url("http://i.imgur.com/B2oowIp.jpg") no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
-    content: 'About NerdieTony";
+    content: "About NerdieTony";
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
 }
 .aboutz:after {
     content: '\A';
