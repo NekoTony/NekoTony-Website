@@ -323,7 +323,7 @@ width: 100%;
 height: 100%;
 }
 
-.now {
+.now:after {
     content: "";
     width: 150px;
     height: 1px;
