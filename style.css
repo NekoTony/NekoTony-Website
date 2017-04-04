@@ -309,7 +309,7 @@ body {
 }
 .now:after {
     content: "";
-    width: 920px;
+    width: 918px;
     display: block;
     position: absolute;
     z-index: -1;
