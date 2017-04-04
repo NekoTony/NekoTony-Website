@@ -293,10 +293,10 @@ body {
 .now {
     border: 4px solid white;
     border-radius: 5px;
-    width: 912px;
-    height: 518px;
-    background-color: #5cb85c;
-    border-color: #5cb85c;
+    width: 920px;
+    height: 530px;
+    background-color: #505050;
+    border-color: #505050;
     text-align: center;
     margin: auto;
     z-index: 1;
