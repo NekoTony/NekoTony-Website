@@ -29,7 +29,7 @@
       <div class="jumbotron">
          <div class="play">
             <div class="now">
-               <iframe width="912" height="518" src="https://www.youtube.com/embed/KaxWAwdJMA4" frameborder="0"></iframe>
+               document.write(html);
             </div>
          </div>
       </div>
@@ -65,6 +65,17 @@
          $('.navbar').fadeIn();
          }
          },false);
+         $(document).ready(function() {
+         
+         var videos = [
+         'pRpvdcjkT3k',
+         'Te4wx4jtiEA',
+         'efTj6UYzvk4'
+         ];
+         
+         var index=Math.floor(Math.random() * videos.length);
+         var html='<div id="video"><h3>Random Video</h3><iframe width="720" height="480"   src="http://www.youtube.com/embed/' + videos[index] + '?autoplay=1" frameborder="0" allowfullscreen></iframe></div>';
+         });
       </script>
    </body>
 </html>
