@@ -321,6 +321,7 @@ body {
 .aboutz {
 	width: 100%;
 	height: 250px;
+	position: relative;
 	background: url("http://i.imgur.com/B2oowIp.jpg") no-repeat center center fixed;
         background-size: cover;	
 }
