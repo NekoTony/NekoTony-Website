@@ -8,7 +8,6 @@
     width: 100%;
     height: 600px;
     top: 0;
-    
     color: #ffffff !important;
     font-size: 46px;
     text-align: center;
@@ -80,7 +79,6 @@
     background-color: #2d2d2d !important;
     width: 100%;
     height: 100px;
-    
     margin-top: -35px;
     z-index: -2;
     color: #fff;
@@ -95,12 +93,10 @@
     right: 0;
     bottom: 0;
     left: 0;
-    
     margin-top: 30px;
 }
 .footerz p {
     color: #fff;
-    
     padding: 1rem;
     text-align: right;
     font-size: 20px;
@@ -112,10 +108,7 @@
     margin-top: 45px;
     height: 500px;
 }
-.span8 h1 {
-    
-}
-.span8 p {
+.span8 h1 {} .span8 p {
     font-size: 18px;
 }
 body {
@@ -123,7 +116,6 @@ body {
 }
 #class {
     margin-top: -50px;
-    
     text-shadow: 2px 2px 8px #000000;
 }
 .avatar img {
@@ -153,7 +145,6 @@ body {
     -o-transition: all 0.3s ease-in-out !important;
     -webkit-transition: all 0.3s ease-in-out !important;
     transition: all 0.3s ease-in-out !important;
-    
     height: 80px !important;
 }
 .btn-transparent:hover,
@@ -162,7 +153,6 @@ body {
     background: #000 !important;
     color: #fff !important;
     text-decoration: none !important;
-    
 }
 .btn-light {
     background: #fff !important;
@@ -177,7 +167,6 @@ body {
     -o-transition: all 0.3s ease-in-out !important;
     -webkit-transition: all 0.3s ease-in-out !important;
     transition: all 0.3s ease-in-out !important;
-    
     height: 80px !important;
 }
 .btn-light:hover,
@@ -186,7 +175,6 @@ body {
     background: transparent !important;
     color: #fff !important;
     text-decoration: none !important;
-    
 }
 .btn {
     margin-top: 75px;
@@ -303,9 +291,8 @@ body {
     left: 0;
     right: 0;
 }
-
 .play {
-	margin-top: 200px;
+    margin-top: 200px;
 }
 .now:after {
     content: "";
@@ -314,28 +301,38 @@ body {
     position: absolute;
     z-index: -1;
     -webkit-box-shadow: 0px 0px 20px 2px #000000;
-       -moz-box-shadow: 0px 0px 20px 2px #000000;
-            box-shadow: 0px 0px 20px 2px #000000;
+    -moz-box-shadow: 0px 0px 20px 2px #000000;
+    box-shadow: 0px 0px 20px 2px #000000;
 }
-
 .aboutz {
-	width: 100%;
-	height: 250px;
-	position: relative;
-	background: url("http://i.imgur.com/B2oowIp.jpg") no-repeat center center fixed;
-        background-size: cover;	
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background: url("http://i.imgur.com/B2oowIp.jpg") no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
 }
 .aboutz:after {
     content: '\A';
     position: absolute;
-    width: 100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
     opacity: 0;
     transition: all 1s;
     -webkit-transition: all 1s;
 }
-
 .aboutz:hover:after {
     opacity: 1;
+}
+.title {
+    display: none;
+}
+.title:hover {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    z-index: 2;
 }
