@@ -2,6 +2,9 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:800');
+
 .jumbotron {
     background: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif") no-repeat center center fixed;
     background-size: cover;
@@ -325,9 +328,10 @@ body {
     background: url("http://i.imgur.com/B2oowIp.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #fff;
-    font-size: 36px;
+    font-size: 50px;
     text-align: center;
     display: table;
+    font-family: 'Merriweather Sans', sans-serif !important;
 }
 .aboutz:after {
     content: '\A';
