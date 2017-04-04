@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:800');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 * {
     font-family: 'Raleway', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:800');
+
 .jumbotron {
     background: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif") no-repeat center center fixed;
     background-size: cover;
@@ -341,5 +342,5 @@ body {
     font-family: 'Merriweather Sans', sans-serif !important;
 }
 .span:hover {
-    opacity: 0
+    opacity: 0;
 }
