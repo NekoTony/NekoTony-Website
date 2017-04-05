@@ -108,7 +108,7 @@
     width: 80%;
     margin: auto;
     margin-top: 45px;
-    height: 500px;
+    min-height: 300px;
 }
 .span8 h1 {} .span8 p {
     font-size: 18px;
