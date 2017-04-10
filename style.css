@@ -22,6 +22,10 @@
     box-shadow: none !important;
     margin-right: 120px !important;
 }
+
+#img {
+   margin-top: -50px;
+}
 .navbar li {
     color: #ffffff !important;
 }
@@ -292,9 +296,6 @@ body {
     z-index: 1;
     left: 0;
     right: 0;
-}
-.play {
-    margin-top: -50px;
 }
 .now:after {
     content: "";
