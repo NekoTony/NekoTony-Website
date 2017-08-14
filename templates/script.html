@@ -30,4 +30,8 @@ window.addEventListener("scroll", function() {
    var index=Math.floor(Math.random() * videos.length);
    document.getElementById('youtube').innerHTML='<div id="video"><iframe width="912" height="522"   src="http://www.youtube.com/embed/' + videos[index] + '" frameborder="0" allowfullscreen><\/iframe><\/div>';
    });
+
+   if (screen.width <= 699) {
+      $("#home_center").remove();
+    }
   </script>
