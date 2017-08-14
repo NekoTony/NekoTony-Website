@@ -1,0 +1,19 @@
+<head>
+  <title>{{ title }}</title>
+  <meta name="viewport" content=
+  "width=device-width, maximum-scale=1">
+  <meta content="NekoTony's Website" property="og:title">
+  <link rel="icon" type="image/png" href=
+  "{{url_for('static', filename='avatar.png')}}">
+  <meta content="{{url_for('static', filename='avatar.png')}}"
+  property="og:image">
+  <meta content=
+  "Wow, look at this...When did i get a website again? I forgot but here's my personal website, NekoTony.pro"
+  property="og:description">
+  <link rel="stylesheet" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  type="text/css"><!--[if lt IE 9]>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+   <![endif]-->
+   {% include 'style.html' %}
+</head>

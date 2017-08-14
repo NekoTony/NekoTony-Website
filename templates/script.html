@@ -1,0 +1,33 @@
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+  type="text/javascript">
+</script>
+  <script src=
+  "https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"
+  type="text/javascript">
+</script>
+  <script src=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  type="text/javascript">
+</script>
+  <script type="text/javascript">
+window.addEventListener("scroll", function() {
+   if (window.scrollY > 500) {
+   $('.navbar').fadeOut();
+   }
+   else {
+   $('.navbar').fadeIn();
+   }
+   },false);
+   $(document).ready(function() {
+
+   var videos = [
+   'KaxWAwdJMA4',
+   'RAP0fzBsjQk',
+   'AAXkMlBfg94'
+   ];
+
+   var index=Math.floor(Math.random() * videos.length);
+   document.getElementById('youtube').innerHTML='<div id="video"><iframe width="912" height="522"   src="http://www.youtube.com/embed/' + videos[index] + '" frameborder="0" allowfullscreen><\/iframe><\/div>';
+   });
+  </script>
